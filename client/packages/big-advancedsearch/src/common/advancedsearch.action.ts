@@ -34,7 +34,7 @@ export namespace RequestAdvancedSearchAction {
 
 export interface AdvancedSearchActionResponse extends ResponseAction {
     kind: typeof AdvancedSearchActionResponse.KIND;
-    count: number;
+    model: any;
 }
 export namespace AdvancedSearchActionResponse {
     export const KIND = 'advancedSearchResponse';
@@ -49,7 +49,7 @@ export namespace AdvancedSearchActionResponse {
         return {
             kind: KIND,
             responseId: '',
-            count: 0,
+            model: 0,
             ...options
         };
     }
