@@ -142,3 +142,4 @@ export function AdvancedSearch(): ReactElement {
         </div>
     );
 }
+
