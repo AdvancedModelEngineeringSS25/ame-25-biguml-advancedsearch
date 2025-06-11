@@ -9,4 +9,5 @@
   <packagedElement xsi:type="uml:Class" xmi:id="_LmvgcO03Ee6l1tMMQqtO_Q" name="Class"/>
   <packagedElement xsi:type="uml:Package" xmi:id="_MqzlgO03Ee6l1tMMQqtO_Q" name="Package"/>
   <packagedElement xsi:type="uml:Package" xmi:id="_SgrzwO03Ee6l1tMMQqtO_Q" name="Package"/>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_pJKiMD9CEfCkqrRQC-Qy2w" client="_LmvgcO03Ee6l1tMMQqtO_Q" supplier="_FSaboO03Ee6l1tMMQqtO_Q"/>
 </uml:Model>

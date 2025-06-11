@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="ASCII"?>
-<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Xvz6wCfKEfCPl-2-NUmAfA"/>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Xvz6wCfKEfCPl-2-NUmAfA">
+  <packagedElement xsi:type="uml:Component" xmi:id="_IYCXATzoEfCP27EAg1k9lg" name="Airport">
+    <ownedUseCase xmi:id="_LhHn0DzoEfCP27EAg1k9lg" name="Group Check-In">
+      <include xmi:id="_ZLTf4DzoEfCP27EAg1k9lg" addition="_P4-Y4DzoEfCP27EAg1k9lg"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_P4-Y4DzoEfCP27EAg1k9lg" name="Individual Check-In"/>
+    <ownedUseCase xmi:id="_R430EDzoEfCP27EAg1k9lg" name="Baggage Check-In">
+      <extend xmi:id="_bPwq8DzoEfCP27EAg1k9lg" extendedCase="_P4-Y4DzoEfCP27EAg1k9lg"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_TyOiYDzoEfCP27EAg1k9lg" name="Security Screening"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Actor" xmi:id="_dLy50DzoEfCP27EAg1k9lg" name="Tour Guide">
+    <generalization xmi:id="_lwoBoDzoEfCP27EAg1k9lg" general="_hFcr8DzoEfCP27EAg1k9lg"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Actor" xmi:id="_hFcr8DzoEfCP27EAg1k9lg" name="Passanger"/>
+  <packagedElement xsi:type="uml:Association" xmi:id="_oLYM0DzoEfCP27EAg1k9lg" memberEnd="_oLe6gDzoEfCP27EAg1k9lg _oLfhkjzoEfCP27EAg1k9lg" navigableOwnedEnd="_oLe6gDzoEfCP27EAg1k9lg _oLfhkjzoEfCP27EAg1k9lg">
+    <ownedEnd xmi:id="_oLe6gDzoEfCP27EAg1k9lg" name="Individual Check-In" type="_P4-Y4DzoEfCP27EAg1k9lg" association="_oLYM0DzoEfCP27EAg1k9lg">
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_oLfhkDzoEfCP27EAg1k9lg" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_oLfhkTzoEfCP27EAg1k9lg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_oLfhkjzoEfCP27EAg1k9lg" name="Passanger" type="_hFcr8DzoEfCP27EAg1k9lg" association="_oLYM0DzoEfCP27EAg1k9lg">
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_oLfhkzzoEfCP27EAg1k9lg" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_oLfhlDzoEfCP27EAg1k9lg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_onW-MDzoEfCP27EAg1k9lg" memberEnd="_onW-MTzoEfCP27EAg1k9lg _onXlQjzoEfCP27EAg1k9lg" navigableOwnedEnd="_onW-MTzoEfCP27EAg1k9lg _onXlQjzoEfCP27EAg1k9lg">
+    <ownedEnd xmi:id="_onW-MTzoEfCP27EAg1k9lg" name="Security Screening" type="_TyOiYDzoEfCP27EAg1k9lg" association="_onW-MDzoEfCP27EAg1k9lg">
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_onXlQDzoEfCP27EAg1k9lg" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_onXlQTzoEfCP27EAg1k9lg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_onXlQjzoEfCP27EAg1k9lg" name="Passanger" type="_hFcr8DzoEfCP27EAg1k9lg" association="_onW-MDzoEfCP27EAg1k9lg">
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_onXlQzzoEfCP27EAg1k9lg" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_onXlRDzoEfCP27EAg1k9lg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_swSicDzoEfCP27EAg1k9lg" memberEnd="_swTJgDzoEfCP27EAg1k9lg _swTJgzzoEfCP27EAg1k9lg" navigableOwnedEnd="_swTJgDzoEfCP27EAg1k9lg _swTJgzzoEfCP27EAg1k9lg">
+    <ownedEnd xmi:id="_swTJgDzoEfCP27EAg1k9lg" name="Group Check-In" type="_LhHn0DzoEfCP27EAg1k9lg" association="_swSicDzoEfCP27EAg1k9lg">
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_swTJgTzoEfCP27EAg1k9lg" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_swTJgjzoEfCP27EAg1k9lg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_swTJgzzoEfCP27EAg1k9lg" name="Tour Guide" type="_dLy50DzoEfCP27EAg1k9lg" association="_swSicDzoEfCP27EAg1k9lg">
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_swTJhDzoEfCP27EAg1k9lg" value="1"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_swTJhTzoEfCP27EAg1k9lg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

@@ -22,4 +22,12 @@
   <elements xsi:type="notation:Edge" xmi:id="_lmr7oO00Ee6N1LQzs4Gq-A">
     <semanticElement xmi:id="_lmr7oe00Ee6N1LQzs4Gq-A" elementId="_lmoRQO00Ee6N1LQzs4Gq-A"/>
   </elements>
+  <elements xsi:type="notation:Shape" xmi:id="_Cq59kD3DEfClrdHpm-i2SA">
+    <semanticElement xmi:id="_Cq59kT3DEfClrdHpm-i2SA" elementId="_Cq4vcD3DEfClrdHpm-i2SA"/>
+    <position xmi:id="_Cq59kj3DEfClrdHpm-i2SA" x="636.0" y="116.0"/>
+    <size xmi:id="_Cq59kz3DEfClrdHpm-i2SA" width="60.0" height="45.0"/>
+  </elements>
+  <elements xsi:type="notation:Edge" xmi:id="_EEMrwD3DEfClrdHpm-i2SA">
+    <semanticElement xmi:id="_EEMrwT3DEfClrdHpm-i2SA" elementId="_EEMEsD3DEfClrdHpm-i2SA"/>
+  </elements>
 </unotation:UMLDiagram>

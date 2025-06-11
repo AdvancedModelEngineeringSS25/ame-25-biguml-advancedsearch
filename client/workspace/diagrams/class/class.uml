@@ -33,4 +33,5 @@
   </packagedElement>
   <packagedElement xsi:type="uml:Usage" xmi:id="_wm2QMPgmEe6ut-tKD2_jgQ" client="_e2z_wO0zEe6ONuorAhNLBg" supplier="_l84A0PgmEe6ut-tKD2_jgQ"/>
   <packagedElement xsi:type="uml:Usage" xmi:id="_yLTFgPgmEe6ut-tKD2_jgQ" client="_nsWaYPgmEe6ut-tKD2_jgQ" supplier="_o_3QsPgmEe6ut-tKD2_jgQ"/>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_a31KkD9CEfCkqrRQC-Qy2w" name="DataType"/>
 </uml:Model>
